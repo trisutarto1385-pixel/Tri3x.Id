@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth dark">
+<head><style>
+@font-face {
+  font-family: "Optimistic";
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Optimistic Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
+}
+:where(html) {
+  font-family: "Optimistic", system-ui, sans-serif;
+}
+:where(code, pre, kbd, samp) {
+  font-family: "Optimistic Mono", ui-monospace, monospace;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TRI3X V7.0 | Tukang - Angkut - Kos di Rajeg Tangerang | 100 Gratis Sisa 27 Slot</title>
+<meta name="description" content="TRI3X.id - Platform Tukang, Angkut, Kos Terdekat Rajeg Tangerang. 34 Provinsi 514 Kota. Escrow Aman. 100 Pertama Gratis 3 Bulan - Sisa 27 Slot!">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config = {
+  darkMode: 'class',
+  theme: {
+    extend: {
+      fontFamily: { sans: ['Plus Jakarta Sans', 'sans-serif'] },
+      colors: {
+        tri: { 50:'#fff7ed', 400:'#FF8C00', 500:'#FF6B00', 600:'#ea580c' }
+      },
+      animation: {
+        'pulse-slow': 'pulse 3s cubic-bezier(0.4,0,0.6,1) infinite',
+        'float': 'float 6s ease-in-out infinite',
+        'ping-slow': 'ping 2.5s cubic-bezier(0,0,0.2,1) infinite'
+      },
+      keyframes: {
+        float: { '0%,100%': {transform:'translateY(0)'}, '50%': {transform:'translateY(-10px)'} }
+      }
+    }
+  }
+}
+</script>
+<style>
+*{ -webkit-tap-highlight-color: transparent }
+.glass{backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px);}
+.gradient-tri{background: linear-gradient(135deg,#FF6B00 0%,#FF8C00 50%,#ffae42 100%)}
+.gradient-dark{background: radial-gradient(1200px 600px at 80% -10%, rgba(255,107,0,0.25), transparent 60%), radial-gradient(800px 400px at 0% 100%, rgba(255,140,0,0.18), transparent 60%), #0a0a0a}
+.map-grid{background-image: linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px); background-size:32px 32px}
+</style>
+</head>
+<body class="bg-[#0a0a0a] text-white font-sans antialiased selection:bg-[#FF6B00]/30">
+<!-- TOP PROMO BAR -->
+<div class="sticky top-0 z-[60] w-full gradient-tri text-white text-[12px] md:text-[13px] font-bold tracking-wide">
+  <div class="mx-auto max-w-[1280px] px-4 py-[9px] flex items-center justify-center gap-2 md:gap-3">
+    <span class="bg-black/20 px-2.5 py-0.5 rounded-full text-[10px] uppercase">Live Rajeg</span>
+    <span>🔥 100 PERTAMA GRATIS 3 BULAN — SISA <span class="bg-white text-[#FF6B00] px-2 py-0.5 rounded-full mx-1">27 SLOT</span> — DAFTAR SEKARANG!</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header class="sticky top-[36px] z-50 w-full border-b border-white/10 bg-black/60 glass">
+  <div class="mx-auto max-w-[1280px] px-4 md:px-6 h-[64px] flex items-center justify-between">
+    <a href="/" class="flex items-center gap-3">
+      <div class="w-9 h-9 rounded-xl gradient-tri grid place-items-center font-extrabold text-[18px] shadow-[0_4px_20px_rgba(255,107,0,0.4)]">T</div>
+      <div class="leading-none">
+        <div class="font-extrabold text-[18px] tracking-tight">TRI3X<span class="text-[#FF8C00]">.ID</span></div>
+        <div class="text-[10px] tracking-[0.2em] text-white/50 -mt-1">V7.0 RAJEG LIVE</div>
+      </div>
+    </a>
+    <nav class="hidden md:flex items-center gap-1 bg-white/[0.06] border border-white/10 rounded-full p-1">
+      <a href="/" class="px-4 py-1.5 rounded-full bg-white text-black text-sm font-bold">Home</a>
+      <a href="/map" class="px-4 py-1.5 rounded-full text-white/70 hover:text-white text-sm font-semibold transition">Map Live</a>
+      <a href="/tukang" class="px-4 py-1.5 rounded-full text-white/70 hover:text-white text-sm font-semibold transition">Tukang</a>
+      <a href="/angkut" class="px-4 py-1.5 rounded-full text-white/70 hover:text-white text-sm font-semibold transition">Angkut</a>
+      <a href="/admin" class="px-4 py-1.5 rounded-full text-white/40 hover:text-white text-sm">Admin</a>
+    </nav>
+    <div class="flex items-center gap-2">
+      <a href="/daftar" class="hidden md:inline-flex h-9 px-5 rounded-full gradient-tri text-sm font-bold shadow-[0_4px_16px_rgba(255,107,0,0.4)] hover:scale-[1.02] transition">Daftar Gratis</a>
+      <button id="mBtn" class="md:hidden w-9 h-9 rounded-full bg-white/10 grid place-items-center">☰</button>
+    </div>
+  </div>
+  <!-- mobile nav -->
+  <div id="mNav" class="hidden md:hidden border-t border-white/10 bg-black/90 glass px-4 py-4 space-y-2">
+    <a href="/" class="block py-2 font-bold">Home</a>
+    <a href="/map" class="block py-2 text-white/70">🗺️ Map Live Rajeg</a>
+    <a href="/tukang" class="block py-2 text-white/70">🔧 Tukang Terdekat</a>
+    <a href="/angkut" class="block py-2 text-white/70">🛻 Angkut Murah</a>
+    <a href="/daftar" class="block mt-2 h-11 grid place-items-center rounded-full gradient-tri font-bold">Daftar Gratis - Sisa 27 Slot</a>
+    <a href="/admin" class="block py-2 text-white/30 text-sm">Admin</a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="relative overflow-hidden gradient-dark">
+  <div class="mx-auto max-w-[1280px] px-4 md:px-6 py-8 md:py-14 grid lg:grid-cols-[1.1fr_0.9fr] gap-8 items-center">
+    <!-- Left Copy -->
+    <div class="relative z-10">
+      <div class="inline-flex items-center gap-2 bg-white/[0.06] border border-white/10 rounded-full px-3 py-1 text-[11px] tracking-wide mb-4">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span> LIVE TRACKING AKTIF • RAJEG - SUKA - TANGERANG
+        <span class="hidden sm:inline-flex ml-2 bg-emerald-500/20 text-emerald-300 px-2 py-0.5 rounded-full text-[10px]">0.3km tukang terdekat</span>
+      </div>
+      <h1 class="text-[32px] md:text-[52px] leading-[0.95] font-extrabold tracking-tight">
+        Tukang & Angkut<br>
+        <span class="bg-gradient-to-r from-[#FF6B00] to-[#FF8C00] bg-clip-text text-transparent">Terdekat 0.3km</span><br>
+        di Rajeg, Real-time.
+      </h1>
+      <p class="mt-4 text-white/60 text-[15px] md:text-[17px] leading-relaxed max-w-[560px]">TRI3X V7.0 — Platform escrow aman nomor #1 Rajeg. Pesan tukang 2 menit datang, angkut mulai 10rb, kos harian. <b class="text-white">34 Provinsi 514 Kota</b> — pusat di Rajeg Tangerang.</p>
+
+      <div class="mt-6 grid grid-cols-3 gap-3 max-w-[480px]">
+        <div class="rounded-2xl bg-white/[0.06] border border-white/10 p-3 glass">
+          <div class="text-[22px] font-extrabold leading-none">100</div>
+          <div class="text-[11px] text-white/50 mt-1 leading-tight">Gratis 3 Bulan mitra pertama</div>
+          <div class="mt-2 h-1.5 rounded-full bg-white/10 overflow-hidden"><div class="h-full w-[73%] gradient-tri"></div></div>
+          <div class="text-[10px] text-[#FF8C00] mt-1 font-bold">Sisa 27 slot</div>
+        </div>
+        <div class="rounded-2xl bg-white/[0.06] border border-white/10 p-3 glass">
+          <div class="text-[22px] font-extrabold leading-none">2.4k+</div>
+          <div class="text-[11px] text-white/50 mt-1">Order selesai Rajeg</div>
+          <div class="mt-2 flex items-center gap-1 text-[11px] text-emerald-400">▲ 18% minggu ini</div>
+        </div>
+        <div class="rounded-2xl bg-white/[0.06] border border-white/10 p-3 glass">
+          <div class="text-[22px] font-extrabold leading-none">4.9★</div>
+          <div class="text-[11px] text-white/50 mt-1">Rating escrow aman</div>
+          <div class="mt-2 text-[10px] text-white/40">tri3x.id & tri3x.com</div>
+        </div>
+      </div>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="/daftar" class="h-[48px] px-7 rounded-full gradient-tri font-extrabold text-[15px] inline-flex items-center gap-2 shadow-[0_8px_30px_rgba(255,107,0,0.35)] hover:scale-[1.02] transition">Daftar Gratis 3 Bulan <span class="bg-white/20 px-2 py-0.5 rounded-full text-[11px]">Sisa 27</span></a>
+        <a href="/map" class="h-[48px] px-6 rounded-full bg-white text-black font-bold text-[15px] inline-flex items-center gap-2">🗺️ Lihat Map Live</a>
+      </div>
+      <div class="mt-3 text-[12px] text-white/40">✓ Tanpa kartu kredit • ✓ Escrow aman • ✓ Verifikasi KTP</div>
+    </div>
+
+    <!-- Right Map Mockup -->
+    <div class="relative">
+      <div class="relative rounded-[28px] overflow-hidden bg-[#141414] border border-white/10 shadow-[0_20px_80px_rgba(0,0,0,0.6)]">
+        <div class="h-[52px] flex items-center justify-between px-5 border-b border-white/10 bg-white/[0.03]">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-white/10 grid place-items-center">📍</div>
+            <div><div class="text-[13px] font-bold leading-none">Rajeg - Pasar Kemis</div><div class="text-[11px] text-white/50">Tangerang • Live Tracking</div></div>
+          </div>
+          <div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span><span class="text-[11px] font-bold text-emerald-400">LIVE</span></div>
+        </div>
+        <!-- Map Area -->
+        <div class="relative h-[420px] bg-[#0e0e0e] map-grid overflow-hidden">
+          <!-- roads simulation -->
+          <svg class="absolute inset-0 w-full h-full opacity-[0.25]" viewBox="0 0 400 420"><path d="M0 120 H400 M0 240 H400 M120 0 V420 M260 0 V420" stroke="white" stroke-width="1" stroke-dasharray="6 12" fill="none"/><circle cx="200" cy="210" r="90" stroke="#FF6B00" stroke-width="1" stroke-dasharray="4 6" fill="none" opacity="0.6"/></svg>
+          <!-- center user -->
+          <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2">
+            <div class="w-[72px] h-[72px] rounded-full bg-[#FF6B00]/20 animate-ping-slow absolute"></div>
+            <div class="relative w-[48px] h-[48px] rounded-full bg-white border-[3px] border-[#FF6B00] grid place-items-center shadow-xl">🧑<span class="absolute -bottom-1 bg-black text-[8px] px-1.5 rounded-full border border-white/20">Anda</span></div>
+          </div>
+          <!-- tukang markers -->
+          <div class="absolute left-[28%] top-[22%] animate-float">
+            <div class="bg-[#1e1e1e] border border-white/10 rounded-full px-2.5 py-1 flex items-center gap-1.5 shadow-lg"><span class="text-[14px]">🔧</span><span class="text-[11px] font-bold">AC - 0.3km</span><span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span></div>
+            <div class="mx-auto w-0 h-0 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-[#1e1e1e]"></div>
+          </div>
+          <div class="absolute right-[22%] top-[30%] animate-float" style="animation-delay:0.8s">
+            <div class="bg-[#1e1e1e] border border-white/10 rounded-full px-2.5 py-1 flex items-center gap-1.5 shadow-lg"><span class="text-[14px]">⚡</span><span class="text-[11px] font-bold">Listrik - 0.5km</span><span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span></div>
+          </div>
+          <div class="absolute left-[18%] bottom-[28%] animate-float" style="animation-delay:1.2s">
+            <div class="bg-[#1e1e1e] border border-white/10 rounded-full px-2.5 py-1 flex items-center gap-1.5 shadow-lg"><span class="text-[14px]">🛻</span><span class="text-[11px] font-bold">Pickup - 0.8km</span><span class="w-2 h-2 bg-amber-400 rounded-full animate-pulse"></span></div>
+          </div>
+          <div class="absolute right-[18%] bottom-[22%]">
+            <div class="bg-white text-black border rounded-full px-2.5 py-1 flex items-center gap-1.5 shadow-lg font-bold"><span class="text-[12px]">🏠</span><span class="text-[11px]">Kos - 1.1km</span></div>
+          </div>
+          <!-- bottom route card -->
+          <div class="absolute bottom-3 left-3 right-3 rounded-2xl bg-[#1c1c1c]/90 glass border border-white/10 p-3 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+              <img src="/assets/img/logo-tri3x-asli.jpeg" onerror="this.style.display='none'" class="w-10 h-10 rounded-full object-cover border border-white/10" alt="tukang">
+              <div><div class="text-[13px] font-bold leading-none">Ujang - Tukang AC Rajeg</div><div class="text-[11px] text-white/50 mt-1">⭐ 4.9 • 342 job • Online 0.3km</div></div>
+            </div>
+            <a href="/tukang" class="h-9 px-4 rounded-full gradient-tri text-[12px] font-bold grid place-items-center">Pesan 2 Menit</a>
+          </div>
+        </div>
+      </div>
+      <!-- floating stats -->
+      <div class="absolute -top-4 -right-2 md:-right-6 bg-white text-black rounded-2xl px-4 py-3 shadow-[0_12px_30px_rgba(0,0,0,0.4)] rotate-[2deg]">
+        <div class="text-[11px] font-bold text-black/50 uppercase tracking-wide">Ojek 10RB</div>
+        <div class="text-[14px] font-extrabold">Murah 40% dr App Lain</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 20 PROFESI GRID -->
+<section id="profesi" class="bg-[#0f0f0f] border-y border-white/5">
+  <div class="mx-auto max-w-[1280px] px-4 md:px-6 py-10 md:py-14">
+    <div class="flex flex-wrap items-end justify-between gap-4 mb-6">
+      <div>
+        <div class="inline-flex items-center gap-2 text-[11px] tracking-[0.2em] text-[#FF8C00] font-bold uppercase">20 Profesi Siap di Rajeg</div>
+        <h2 class="text-[28px] md:text-[36px] font-extrabold leading-[0.95] mt-2">Semua tukang ada, <br><span class="text-white/40">tinggal klik 0.3km</span></h2>
+      </div>
+      <a href="/tukang" class="h-10 px-5 rounded-full bg-white/10 border border-white/10 text-sm font-bold hover:bg-white hover:text-black transition">Lihat semua →</a>
+    </div>
+    <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-5 gap-3 md:gap-4" id="profesiGrid"></div>
+  </div>
+</section>
+
+<!-- ANGKUT -->
+<section id="angkut" class="relative overflow-hidden bg-[#0a0a0a]">
+  <div class="mx-auto max-w-[1280px] px-4 md:px-6 py-12 md:py-16 grid lg:grid-cols-2 gap-8 items-center">
+    <div>
+      <div class="inline-flex items-center gap-2 bg-[#FF6B00]/15 border border-[#FF6B00]/20 rounded-full px-3 py-1 text-[11px] font-bold text-[#FF8C00]">🛻 TRI3X ANGKUT — MURAH 40%</div>
+      <h2 class="mt-4 text-[28px] md:text-[42px] font-extrabold leading-[0.95]">Angkut mulai <span class="bg-gradient-to-r from-[#FF6B00] to-[#FF8C00] bg-clip-text text-transparent">10rb</span> aja.</h2>
+      <p class="mt-3 text-white/60 max-w-[520px]">Ojek, pickup, engkel, tronton. Harga grosir Rajeg asli — bukan markup aplikasi. Bayar escrow aman, driver verifikasi KTP.</p>
+      <div class="mt-6 space-y-3">
+        <div class="flex items-center gap-4 rounded-2xl bg-white/[0.05] border border-white/10 p-4">
+          <div class="w-12 h-12 rounded-xl gradient-tri grid place-items-center text-[20px]">🛵</div>
+          <div class="flex-1"><div class="font-bold">Ojek Angkut Rajeg</div><div class="text-[12px] text-white/50">Sampai 20kg • Instant 15 menit</div></div>
+          <div class="text-right"><div class="font-extrabold text-[18px]">10rb</div><div class="text-[11px] text-white/40 line-through">18rb</div></div>
+        </div>
+        <div class="flex items-center gap-4 rounded-2xl bg-white/[0.05] border border-white/10 p-4">
+          <div class="w-12 h-12 rounded-xl bg-white text-black grid place-items-center text-[20px]">🛻</div>
+          <div class="flex-1"><div class="font-bold">Mobil Pickup / Engkel</div><div class="text-[12px] text-white/50">Pindahan Kos, Material — 40% lebih murah</div></div>
+          <div class="text-right"><div class="font-extrabold text-[18px]">50rb</div><div class="text-[11px] text-emerald-400">Mulai</div></div>
+        </div>
+      </div>
+      <a href="/angkut" class="mt-6 inline-flex h-[46px] px-6 rounded-full bg-white text-black font-bold items-center gap-2">Pesan Angkut Sekarang →</a>
+    </div>
+    <div class="relative rounded-[24px] bg-[#151515] border border-white/10 p-4 md:p-6">
+      <div class="flex items-center justify-between mb-4">
+        <div class="font-bold">Estimasi Real Rajeg</div>
+        <div class="text-[11px] px-2.5 py-1 rounded-full bg-emerald-500/15 text-emerald-400 border border-emerald-500/20">Live Price</div>
+      </div>
+      <div class="space-y-2 text-[13px]">
+        <div class="flex justify-between py-2.5 border-b border-white/5"><span class="text-white/50">Rajeg → Pasar Kemis (3.2km)</span><span class="font-bold">Rp 12.000</span></div>
+        <div class="flex justify-between py-2.5 border-b border-white/5"><span class="text-white/50">Rajeg → Sepatan (5.8km) Pickup</span><span class="font-bold">Rp 55.000 <span class="text-white/30 line-through ml-1">85rb</span></span></div>
+        <div class="flex justify-between py-2.5"><span class="text-white/50">Rajeg → Bandara Soetta (18km)</span><span class="font-bold">Rp 120.000</span></div>
+      </div>
+      <div class="mt-5 rounded-xl gradient-tri p-4 flex items-center gap-3">
+        <div class="w-10 h-10 rounded-full bg-white grid place-items-center">🛡️</div>
+        <div><div class="text-sm font-extrabold">Escrow Aman TRI3X</div><div class="text-[12px] text-white/80">Uang ditahan sampai barang sampai. 0% sengketa di Rajeg.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section class="bg-[#0f0f0f] border-y border-white/5 py-10">
+  <div class="mx-auto max-w-[1280px] px-4 md:px-6">
+    <h3 class="font-extrabold text-[20px] mb-5">Warga Rajeg bilang — ⭐ 4.9/5 dari 2.4k order</h3>
+    <div class="grid md:grid-cols-3 gap-4">
+      <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5"><div class="text-[13px] leading-relaxed text-white/80">"Tukang AC dateng 18 menit dari order. Di Rajeg jarang ada yang secepat ini. Harga jelas di awal."</div><div class="mt-4 text-[12px] font-bold">— Pak Eko, Perum Rajeg Mulya</div><div class="text-[11px] text-white/40">⭐⭐⭐⭐⭐ Escrow Aman</div></div>
+      <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5"><div class="text-[13px] leading-relaxed text-white/80">"Angkut pickup cuma 50rb Rajeg - Sepatan. Di aplikasi lain 90rb. TRI3X beneran murah 40%."</div><div class="mt-4 text-[12px] font-bold">— Ibu Siti, Kos Rajeg</div><div class="text-[11px] text-white/40">⭐⭐⭐⭐⭐ Angkut</div></div>
+      <div class="rounded-2xl bg-white/[0.04] border border-white/10 p-5"><div class="text-[13px] leading-relaxed text-white/80">"Daftar tukang listrik gratis 3 bulan sisa slot. Alhamdulillah order masuk tiap hari."</div><div class="mt-4 text-[12px] font-bold">— Kang Dedi, Tukang Listrik</div><div class="text-[11px] text-white/40">⭐⭐⭐⭐⭐ Mitra</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA DAFTAR -->
+<section id="daftar" class="relative overflow-hidden">
+  <div class="gradient-tri">
+    <div class="mx-auto max-w-[1280px] px-4 md:px-6 py-10 md:py-14 grid lg:grid-cols-[1.2fr_0.8fr] gap-8 items-center">
+      <div class="text-white">
+        <div class="inline-flex items-center gap-2 bg-black/20 rounded-full px-3 py-1 text-[11px] font-bold tracking-wide">🎉 PROMO 100 PERTAMA GRATIS 3 BULAN</div>
+        <h2 class="mt-3 text-[30px] md:text-[46px] font-extrabold leading-[0.95]">Daftar sekarang,<br>gratis 3 bulan full.</h2>
+        <p class="mt-3 text-white/90 text-[15px] max-w-[520px]">Khusus Rajeg & sekitarnya. Sisa <span class="bg-white text-[#FF6B00] px-2.5 py-0.5 rounded-full font-extrabold">27 SLOT</span> dari 100 mitra pertama. Setelah itu Rp 99rb/bulan.</p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="/daftar" class="h-[50px] px-8 rounded-full bg-black text-white font-extrabold inline-flex items-center gap-2 shadow-xl hover:scale-[1.02] transition">Daftar Gratis 3 Bulan →</a>
+          <div class="inline-flex items-center g
