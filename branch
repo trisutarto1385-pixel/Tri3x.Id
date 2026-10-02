@@ -1,0 +1,10 @@
+git checkout -b my-featuregit add .github/ISSUE_TEMPLATE/ PROJECT_BOARD_V7.1.md GITHUB_ISSUES.md create-issues.sh README.md
+
+git commit -m "feat(github): 7 Issues V7.1 + Project Board Kanban - QR 800px + Co-branding + Map Live 0.3km + Angkut Murah 40% + Daftar 27 Slot + Admin BCA 7010640835 + Deploy Netlify PWA APK
+
+- 7 Issues: QR 800px PWA APK, Co-branding Logo Mitra TRI3X Selalu Ada, Map Live Rajeg 0.3km 47 pin, Angkut Murah Ojek 10rb Pickup 50rb, Daftar Gratis 100 Pertama Sisa 27 Slot QR 224-288px, Admin Private BCA 7010640835 Komisi 2%, Deploy Netlify Vercel PWA APK
+- Project Board: Todo 7 In Progress 0 In Review 0 Done 0 - Target 1 minggu deploy tri3x.id V7.1
+- 6 file terbaru: index, map, daftar, tukang, angkut, admin - Logo TRI3X Selalu Ada + Logo Mitra + QR 192-288px + Map Live 0.3km 47 pin + Ojek 10rb Pickup 50rb Murah 40% + Escrow BCA Komisi 2%
+- Owner: Tri Sutarto Rajeg Tangerang - 34 Provinsi 514 Kota - tri3x.id & tri3x.com"
+
+git push origin main

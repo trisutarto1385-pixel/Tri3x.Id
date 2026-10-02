@@ -1,0 +1,16 @@
+tri3x-repository/
+├── index.html (V7.1 utama - Logo TRI3X selalu ada + Logo Mitra + QR 192-256px)
+├── map/index.html (Map Live 0.3km - 47 pin)
+├── tukang/index.html (20 Profesi)
+├── angkut/index.html (Ojek 10rb Pickup 50rb Murah 40%)
+├── daftar/index.html (Form + QR 224-288px SUPER BESAR)
+├── admin/index.html (Private - BCA 7010640835 - Komisi 2% + Manajemen Logo Mitra)
+├── my-feature/
+│   └── index.html (BARU! - Fitur Estimasi + Chat WA + Co-branding Enhanced)
+├── MY-FEATURE-BRANCH.md (Panduan Git - Cara push & PR)
+├── manifest.json (PWA)
+├── sw.js (Service Worker)
+├── netlify.toml + _redirects + _headers
+├── assets/img/qr-tri3x-install-apk.png (QR 800x800)
+├── install/index.html (Install APK 1 klik)
+└── README.md V7.1 terbaru

@@ -1,0 +1,5 @@
+git add my-feature/index.html
+git add index.html map/index.html tukang/index.html angkut/index.html daftar/index.html admin/index.html
+git add manifest.json sw.js netlify.toml _redirects _headers
+git add assets/img/qr-tri3x-install-apk.png install/index.html README.md
+git add MY-FEATURE-BRANCH.md
